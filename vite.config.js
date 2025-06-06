@@ -8,10 +8,11 @@ export default defineConfig({
     minify: 'terser',
     terserOptions: {
       compress: {
-        drop_console: true,
+        drop_console: false, // Keep console logs
         drop_debugger: true
       }
     },
+    sourcemap: true, // Enable source maps for debugging
     rollupOptions: {
       output: {
         manualChunks: {
