@@ -1,6 +1,7 @@
 # Ultrahuman Ring Website
 
 A modern, responsive clone of the Ultrahuman Ring website built with React, Framer Motion, and TailwindCSS.
+Demo Link - https://ultra-human-rings.netlify.app/
 
 ## Features
 - Dynamic ring color selection
